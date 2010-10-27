@@ -21,6 +21,9 @@ endif
 " Start without the toolbar
 set guioptions-=T
 
+" Always show the tab bar
+set showtabline=2
+
 " Default gui color scheme
 color molokai
 
