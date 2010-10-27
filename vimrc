@@ -29,6 +29,7 @@ set laststatus=2
 " NERDTree configuration
 let NERDTreeIgnore=['\.rbc$', '\~$']
 map <Leader>n :NERDTreeToggle<CR>
+map <D-O> :NERDTreeToggle<CR>
 "map <D-S-h> <C-w>h
 "map <D-S-l> <C-w>l
 
