@@ -24,6 +24,9 @@ set guioptions-=T
 " Default gui color scheme
 color molokai
 
+" Set Default font
+set guifont=Bitstream\ Vera\ Sans\ Mono:h8
+
 " ConqueTerm wrapper
 function StartTerm()
   execute 'ConqueTerm ' . $SHELL . ' --login'
