@@ -1,5 +1,7 @@
 set nocompatible
 
+let mapleader=','
+
 set number
 set ruler
 syntax on
