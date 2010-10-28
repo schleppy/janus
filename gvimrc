@@ -25,7 +25,7 @@ set guioptions-=T
 set showtabline=2
 
 " Default gui color scheme
-color ir_black
+color molokai
 
 " Set Default font
 set guifont=Bitstream\ Vera\ Sans\ Mono:h8
