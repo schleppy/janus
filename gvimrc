@@ -28,11 +28,21 @@ set guioptions-=T
 " Always show the tab bar
 set showtabline=2
 
+" Kill the arrow keys
+noremap  <Up> ""           
+noremap! <Up> <Esc>        
+noremap  <Down> ""         
+noremap! <Down> <Esc>      
+noremap  <Left> ""         
+noremap! <Left> <Esc>      
+noremap  <Right> ""        
+noremap! <Right> <Esc>
+
 " Default gui color scheme
 "color molokai
 
 " Set Default font
-set guifont=Bitstream\ Vera\ Sans\ Mono:h8
+set guifont=Bitstream\ Vera\ Sans\ Mono:h10
 
 " ConqueTerm wrapper
 function StartTerm()

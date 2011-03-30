@@ -35,6 +35,7 @@ map <D-O> :NERDTreeMirror<CR>
 " Custom Key Bindings
 inoremap <D-CR> <Esc>o
 inoremap <D-C-CR>	<Esc>A;<CR> <BS>
+inoremap <C-D-[>    <Esc>A{<CR>
 
 " Chaning splits
 noremap <C-h> <C-w>h
@@ -47,6 +48,22 @@ inoremap <C-j> <Esc><C-w>j
 inoremap <C-k> <Esc><C-w>k
 inoremap <C-l> <Esc><C-w>l
 
+" Kill the arrow keys
+noremap  <Up> ""           
+noremap! <Up> <Esc>        
+noremap  <Down> ""         
+noremap! <Down> <Esc>      
+noremap  <Left> ""         
+noremap! <Left> <Esc>      
+noremap  <Right> ""        
+noremap! <Right> <Esc>
+
+" Only auto complete braces
+let g:AutoClosePairs = {'{':'}'}
+
+" Keep visual block selection after changing indent with < or >
+vmap > >gv
+vmap < <gv
 
 " Command-T configuration
 let g:CommandTMaxHeight=20
